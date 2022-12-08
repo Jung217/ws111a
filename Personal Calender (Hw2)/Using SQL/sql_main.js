@@ -2,7 +2,7 @@ import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import * as render from './render.js'
 import { DB } from "https://deno.land/x/sqlite/mod.ts";
 
-const db = new DB("blog.db");
+const db = new DB("Schedules.db");
 db.query("CREATE TABLE IF NOT EXISTS posts (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, time TEXT, body TEXT)");
 
 
