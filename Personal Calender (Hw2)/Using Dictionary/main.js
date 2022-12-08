@@ -4,7 +4,7 @@ import * as render from './render.js'
 const posts = [
   {id:0, title:'Project1', time: "2022-09-16", body:'Home & Login pages'},
   {id:1, title:'Project2', time: "2022-09-23", body:'Personal Calendar'},
-  {id:2, title:'Midterm Project', time: "2022-09-30", body:'Personal Calendar'}
+  {id:2, title:'Midterm Project', time: "2022-09-30", body:'Concept of website'}
 ];
 
 const router = new Router();
