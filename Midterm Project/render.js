@@ -138,6 +138,13 @@ export function layout(title, content) {
 
 export function list(posts) {
   let list = []
+  let ID = 0;
+  function getRandomInt(max) {
+    ID = Math.floor(Math.random() * max);
+    return ID;
+  }
+  getRandomInt(12);
+  console.log(ID.toString());
   for (let post of posts) {
     list.push(`
     <li>
@@ -155,7 +162,8 @@ export function list(posts) {
   <ul id="posts">
     ${list.join('\n')}
   </ul>
-  `
+  <button id="lucky" style="width: 200px; height: 30px;" onclick="location.href='/post/${ID}'">尋找幸運風獅爺</button>
+ `
   return layout('Show', content)
 }
 
