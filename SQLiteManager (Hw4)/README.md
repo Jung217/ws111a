@@ -1,0 +1,1 @@
+Test command source : https://sqlite.org/cli.html
