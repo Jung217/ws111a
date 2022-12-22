@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="SQLiteManager"/>
+        <link href="stylesheet.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="mainDiv">
+            <textarea id="cmd" placeholder="輸入SQL指令"></textarea>
+            <button id="submit" onclick="sqlRun()">執行</button>
+            <div id="resultDiv">
+                <h2 id="reH2">執行結果</h2>
+                <pre id="result">
+                </pre>
+            </div>
+        </div>
+        <script src="manager.js"></script>
+    </body>
+</html>
