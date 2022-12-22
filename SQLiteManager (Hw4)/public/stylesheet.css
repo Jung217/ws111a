@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+pre {
+    font-size: 13px;
+}
+
+#submit {
+    position: relative;
+    bottom: 7px;
+}
+
+#resultDiv {
+    height:60em;
+    padding: 10px;
+    font: 16px Helvetica, Arial;
+    border: 2px #3E6B7E solid;
+    border-radius: 5px;
+}
+
+textarea {
+    width:800px;
+    height:10em;
+    margin:auto;
+}
+
+#reH2 {
+    position: relative;
+    left: 30px;
+}
