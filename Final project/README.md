@@ -2,7 +2,7 @@
 
 <strong>本程式完全原創，僅參考[作業2:個人行事曆](https://github.com/Jung217/ws111a/tree/main/Personal%20Calender%20(Hw2))</strong>
 
-## 主要功能:
+## 執行:
 
 請下載資料夾執行<strong>main.is</strong>
 
