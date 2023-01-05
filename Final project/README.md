@@ -4,6 +4,15 @@
 
 ## 主要功能:
 
+請下載資料夾執行<strong>main.is</strong>
+
+```
+PS C:\Users\alex2\NQU\ws111a\Final project> deno run -A main.js
+Server run at http://127.0.0.1:8000
+```
+
+## 主要功能:
+
 * Mail 聯繫作者
 * 註冊&登入(用SQLite、註冊不可留白、帳號不重複、登入驗證)
 * 收藏愛心功能
@@ -64,7 +73,7 @@ export function update(Mid, Gid) {
 
 ## 備註:
 
-展示網站功能[影片](https://youtu.be/ou6Ai6uyzKk)
+展示網站功能[影片](https://youtu.be/vm-brJimqBM)
 
 資料來源:[風獅爺](https://trfc.tw/culture/block_evil/fsx)
 
